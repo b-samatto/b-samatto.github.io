@@ -1,25 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>B Samatto | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bentah Samatto | Front-End Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
-body { font-family: Arial; text-align: center; background: #ffeef5; padding: 50px; }
-h1 { color: pink; }
-.card { background: white; padding: 20px; margin: 20px auto; max-width: 500px; border-radius: 20px; }
-a { background: #ff69b4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 10px; }
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#fff0f5;color:#333;line-height:1.6}
+header{background:linear-gradient(135deg,#ff69b4,#ffb6d9);color:white;text-align:center;padding:80px 20px}
+header h1{font-size:2.8rem;margin-bottom:10px}
+header p{font-size:1.2rem;opacity:0.9}
+.btn{display:inline-block;background:white;color:#ff69b4;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:600;margin:10px;transition:0.3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,0,0,0.2)}
+section{max-width:1000px;margin:60px auto;padding:0 20px}
+h2{text-align:center;color:#ff69b4;margin-bottom:30px;font-size:2rem}
+.skills{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.skill{background:white;border:2px solid #ffb6d9;padding:8px 18px;border-radius:20px;font-weight:500}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:white;border-radius:15px;padding:25px;box-shadow:0 5px 20px rgba(255,105,180,0.15);transition:0.3s}
+.card:hover{transform:translateY(-5px)}
+.card h3{color:#ff69b4;margin-bottom:10px}
+.card a{color:#ff69b4;text-decoration:none;font-weight:600}
+.contact{text-align:center;background:white;padding:40px;border-radius:15px;box-shadow:0 5px 20px rgba(255,105,180,0.15)}
+footer{text-align:center;padding:30px;background:#333;color:white;margin-top:60px}
 </style>
 </head>
 <body>
-<h1>Hi, I'm 🌸Bentah Samatto🌸</h1>
-<p>🌸I build cool websites!🌸</p>
+
+<header>
+<h1>Hi, I'm Bentah Samatto 🌸</h1>
+<p>Code Alchemist | Front-End Developer | AI/ML Enthusiast | Kenya 🇰🇪</p>
+<p style="margin-top:15px">I build cool, clean & user-focused websites</p>
+<div style="margin-top:25px">
+<a class="btn" href="#projects">View My Projects</a>
+<a class="btn" href="https://github.com/b-samatto" target="_blank">My GitHub</a>
+</div>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p style="text-align:center;max-width:700px;margin:0 auto">Hey! I'm Samatto from Kenya, passionate about front-end development and turning ideas into beautiful websites. I'm currently learning JavaScript, AI/ML and building responsive projects with HTML, CSS, and Bootstrap. I love pink, clean design, and making the web more beautiful!</p>
+</section>
+
+<section>
+<h2>My Skills</h2>
+<div class="skills">
+<span class="skill">HTML5</span>
+<span class="skill">CSS3</span>
+<span class="skill">Bootstrap 5</span>
+<span class="skill">Python</span>
+<span class="skill">Git & GitHub</span>
+<span class="skill">Responsive Design</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>🌿 My Projects</h2>
+<div class="projects">
 <div class="card">
-<h2>🪴My Projects</h2>
-<p>Project 1 - My awesome website</p>
-<p>Project 2 - samatto.html</p>
+<h3>Arsha - Business Landing Page</h3>
+<p>Modern responsive business template built with Bootstrap 5. Clean, professional and fully mobile-friendly.</p>
+<br>
+<a href="https://superlative-cassata-85efa3.netlify.app" target="_blank">🔗 Live Demo</a> | <a href="https://github.com/b-samatto/Arsha" target="_blank">GitHub</a>
 </div>
 <div class="card">
-<h2>Contact Me🙂</h2>
-<a href="https://github.com/b-samatto">See my GitHub</a>
+<h3>Estate Agency Website</h3>
+<p>Real estate agency website with property listings and modern UI.</p>
+<br>
+<a href="https://github.com/b-samatto/EstateAgency" target="_blank">🔗 View Code</a>
 </div>
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>This personal portfolio you're viewing now - built with love, HTML & CSS.</p>
+<br>
+<a href="https://github.com/b-samatto/b-samatto.github.io" target="_blank">🔗 View Code</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="contact">
+<h2>Contact Me 😊</h2>
+<p>Let's build something amazing together!</p>
+<br>
+<a class="btn" style="background:#ff69b4;color:white" href="https://www.linkedin.com/in/samato-bentah-13a5bb3a6" target="_blank">LinkedIn</a>
+<a class="btn" style="background:#333;color:white" href="https://github.com/b-samatto" target="_blank">GitHub</a>
+<a class="btn" style="background:#25D366;color:white" href="https://wa.me/qr/XOUNRKC6FHTGPI" target="_blank">WhatsApp</a>
+<br><br>
+<p>📧 s5844to@gmail.com</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Bentah Samatto | Built with 💖 in Kenya</p>
+</footer>
+
 </body>
 </html>
